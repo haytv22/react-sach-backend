@@ -10,7 +10,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "preinstall": "npm install @nestjs/cli",
-    "build": "npx nest build",
+    "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node ./dist/main.js",
     "dev": "node ./dist/main.js",
