@@ -9,7 +9,8 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "build": "nest build",
+    "preinstall": "npm install @nestjs/cli",
+    "build": "npx nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node ./dist/main.js",
     "dev": "node ./dist/main.js",
